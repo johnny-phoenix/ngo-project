@@ -19,8 +19,8 @@ namespace NGO.Domain
         public string Login { get; set; }
         public string Passwd { get; set; }
 
-        public bool IsAdmin { get; set; }
-        public bool CanDownloadSpecialFiles { get; set; }
+        public bool IsAdmin { get; set; } = false;
+        public bool CanDownloadSpecialFiles { get; set; } = false;
         public bool IsNewsEditor { get; set; } = false;
         public bool IsLibraryeditor { get; set; } = false;
         public bool IsPersonalStoryesEditor { get; set; } = false;
