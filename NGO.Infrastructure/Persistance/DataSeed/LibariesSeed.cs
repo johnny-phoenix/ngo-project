@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace NGO.Infrastructure.Persistance.DataSeed
 {
-    public class LibarySeed
+    public class LibariesSeed
     {
         public async Task Seed(NGODbContext context)
         {
-            if(!context.Librarys.Any())
+            if(!context.Libraries.Any())
             {
                 //var Csharp = {}
             }

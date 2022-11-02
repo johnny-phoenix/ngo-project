@@ -10,9 +10,9 @@ namespace NGO.Infrastructure.Persistance.DataSeed
 {
     public class NewsSeed
     {
-        public static async Task Seed(NGODbContext context)
+        public static async Task Seed(NGODbContext context, int UserId)
         {
-            if(!context.Newses.Any())
+            if(!context.News.Any())
             {
                 var n1 = new News()
                 {

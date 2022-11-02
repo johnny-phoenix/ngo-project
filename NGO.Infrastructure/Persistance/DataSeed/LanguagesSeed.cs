@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NGO.Infrastructure.Persistance.DataSeed
 {
-    public class LanguageSeed
+    public class LanguagesSeed
     {
         public static async Task Seed(NGODbContext context)
         {

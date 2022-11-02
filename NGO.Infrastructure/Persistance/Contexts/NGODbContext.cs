@@ -13,10 +13,10 @@ namespace NGO.Infrastructure.Persistance.Contexts
         public NGODbContext(DbContextOptions option) : base(option) { }
 
         public DbSet<Language> Languages { get; set; }
-        public DbSet<News> Newses { get; set; }
+        public DbSet<News> News { get; set; }
         public DbSet<PersonalStory> PersonalStories { get; set; }
         public DbSet<Project> Projects { get; set; }
-        public DbSet<Library> Librarys { get; set; }
+        public DbSet<Library> Libraries { get; set; }
 
         //public DbSet<ProjectDonor> ProjectDonors { get; set; }  
         //public DbSet<ProjectImplementor> ProjectImplementors { get; set; }

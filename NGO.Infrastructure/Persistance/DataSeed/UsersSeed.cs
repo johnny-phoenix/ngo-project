@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace NGO.Infrastructure.Persistance.DataSeed
 {
-    public class UserSeed
+    public class UsersSeed
     {
         public static async Task Seed(NGODbContext context)
         {
             var user1 = new User()
             {
-                FirstName = "Vasilii",
+                FirstName = "Vasil",
                 LastName = "Gromozeka",
                 Email = "gromozeka@gmail.com",
                 Phone = null,
